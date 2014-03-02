@@ -1,8 +1,29 @@
 // Roomba IR remote web server with a Nanode by Jan Wildeboer
 // 
-// Based on BackSoon exmaple of the Ethercard library
-// Present a "Will be back soon web page", as stand-in webserver.
-// 2011-01-30 <jc@wippler.nl> http://opensource.org/licenses/mit-license.php
+// Uses send_roomba function from http://www.instructables.com/id/Super-Simple-Arduino-Powered-Roomba-Scheduler/step3/Arduino-Script/
+// HTTP "server" Based on BackSoon exmaple of the Ethercard library https://github.com/jcw/ethercard
+//
+// The MIT License (MIT)
+// 
+// Copyright (c) 2014 Jan Wildeboer 
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
 
 // Uncomment to see Debug on Serial
 //#define DEBUG
@@ -38,7 +59,7 @@ static int freeRam () {
 // Get the network ready
 void setup(){
   Serial.begin(9600);
-  Serial.println("\n[RoombaRemote]");
+  Serial.println("\n[RoombaIR]");
   
   if (ether.begin(sizeof Ethernet::buffer, mymac) == 0) 
     Serial.println( "Failed to access Ethernet controller");
