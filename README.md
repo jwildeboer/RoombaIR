@@ -11,7 +11,7 @@ Infrared library IRremote from https://github.com/shirriff/Arduino-IRremote
 
 License:
 
-he MIT License (MIT)
+The MIT License (MIT)
 
 Copyright (c) 2014 Jan Wildeboer
 
