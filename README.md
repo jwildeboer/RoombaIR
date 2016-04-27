@@ -1,7 +1,7 @@
 RoombaIR
 ========
 
-Simple solution to send IR remote commands to a Roomba using a Nanode V5
+Simple solution to send IR remote commands to a Roomba using a Nanode V5 via a simple web page
 
 Uses send_roomba function from http://www.instructables.com/id/Super-Simple-Arduino-Powered-Roomba-Scheduler/step3/Arduino-Script/
 
