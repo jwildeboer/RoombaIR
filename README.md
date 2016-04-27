@@ -5,7 +5,7 @@ Simple solution to send IR remote commands to a Roomba using a Nanode V5
 
 Uses send_roomba function from http://www.instructables.com/id/Super-Simple-Arduino-Powered-Roomba-Scheduler/step3/Arduino-Script/
 
-HTTP "server" Based on BackSoon exmaple of the Ethercard library https://github.com/jcw/ethercard
+HTTP "server" Based on BackSoon example of the Ethercard library https://github.com/jcw/ethercard
 
 Infrared library IRremote from https://github.com/shirriff/Arduino-IRremote
 
