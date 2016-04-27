@@ -13,7 +13,7 @@ License:
 
 The MIT License (MIT)
 
-Copyright (c) 2014 Jan Wildeboer
+Copyright (c) 2014 Jan Wildeboer and others
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
