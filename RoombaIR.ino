@@ -137,7 +137,7 @@ int roombaDock(BufferFiller&buf) {
   return 1;
 }
 
-// Sned code to the Roomba
+// Send code to the Roomba
 void roombaSend(int code){
 #ifdef DEBUG
   Serial.print("Sending Roomba code ");
