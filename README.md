@@ -2,6 +2,8 @@
 
 Simple solution to send IR remote commands to a Roomba using a [Nanode V5](https://wiki.london.hackspace.org.uk/view/Project:Nanode) via a basic web page.
 
+Tested and in "production" use since 2014 with an [iRobot Roomba 620](http://www.irobot.com/). Should work with all 500/600/700 series Roomba devices.
+
 You need to connect an infrared LED with the correct limiting resistor to Digital Pin 3 and point it towards the IR receiver on your Roomba. I've glued it to the top of the charging station and added a reflector. Works a charm since 4 years.
 
 - Uses **send_roomba** function from [Super Simple Arduino Powered Roomba Scheduler](http://www.instructables.com/id/Super-Simple-Arduino-Powered-Roomba-Scheduler/step3/Arduino-Script/)
