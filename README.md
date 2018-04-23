@@ -10,7 +10,7 @@ You need to connect an infrared LED with the correct limiting resistor to Digita
 - HTTP "server" based on BackSoon example from the [Ethercard](https://github.com/jcw/ethercard) library 
 - Infrared library [IRremote](https://github.com/shirriff/Arduino-IRremote)
 
-License:
+**License:**
 
 The MIT License (MIT)
 
