@@ -1,4 +1,4 @@
-# RoombaIR 1.0.0
+# RoombaIR 1.0.1
 
 Simple solution to send IR remote commands to a Roomba using a [Nanode V5](https://wiki.london.hackspace.org.uk/view/Project:Nanode) via a basic web page.
 
