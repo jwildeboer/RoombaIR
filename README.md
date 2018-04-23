@@ -1,9 +1,9 @@
 # RoombaIR 1.0.0
 
-Simple solution to send IR remote commands to a Roomba using a [Nanode V5](https://wiki.london.hackspace.org.uk/view/Project:Nanode) via a simple web page.
+Simple solution to send IR remote commands to a Roomba using a [Nanode V5](https://wiki.london.hackspace.org.uk/view/Project:Nanode) via a basic web page.
 
 - Uses **send_roomba** function from [Super Simple Arduino Powered Roomba Scheduler](http://www.instructables.com/id/Super-Simple-Arduino-Powered-Roomba-Scheduler/step3/Arduino-Script/)
-- HTTP "server" Based on BackSoon example of the [Ethercard](https://github.com/jcw/ethercard) library 
+- HTTP "server" based on BackSoon example from the [Ethercard](https://github.com/jcw/ethercard) library 
 - Infrared library [IRremote](https://github.com/shirriff/Arduino-IRremote)
 
 License:
